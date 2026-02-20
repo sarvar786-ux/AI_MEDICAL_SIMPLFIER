@@ -16,11 +16,11 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 
 
 client = chromadb.CloudClient(
-  api_key='ck-5WhQb3YeAsSRAHvqiNDdqpe7TJaAhsoeLoCHfkc6uoLC',
-  tenant='3e2689b8-5d0c-4912-8a5e-13c7565c79cd',
-  database='medical_reports'
+  api_key='your api_key',
+  tenant='your key',
+  database='your_database_name'
 )
-collection = client.get_or_create_collection("medical_reports")
+collection = client.get_or_create_collection("your_database_name")
 
 
 # ---------------- PAGE CONFIG ----------------
